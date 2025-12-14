@@ -24,19 +24,19 @@ endpoints REST, uso do npm e versionamento com Git.
 ```bash
 git clone https://github.com/seu-usuario/calculadora
 ````
-# Acessar a pasta do projeto
+Acessar a pasta do projeto
+```bash
+cd Calculadora
+````
+Instale as dependências
  ```bash
 npm install
 ```` 
-Instale as dependências
+Executar a aplicação
  ```bash
 npm start
 ````
-Executar a aplicação
- ```bash
-cd Calculadora
-````
-Acesse
+O servidor sera iniciado 
 ``` bash
 http://localhost:3000
 ````
@@ -54,6 +54,7 @@ GET /math/subtracao?a=7&b=2
 GET /math/multiplicacao?a=3&b=5
 GET /math/divisao?a=15&b=3
 ````
+
 
 
 
