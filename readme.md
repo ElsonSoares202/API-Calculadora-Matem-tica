@@ -23,13 +23,37 @@ endpoints REST, uso do npm e versionamento com Git.
 ### Clonar o repositório
 ```bash
 git clone https://github.com/seu-usuario/calculadora
-
-cd Calculadora
+````
+# Acessar a pasta do projeto
+ ```bash
 npm install
+```` 
+Instale as dependências
+ ```bash
 npm start
-
+````
+Executar a aplicação
+ ```bash
+cd Calculadora
+````
+Acesse
+``` bash
 http://localhost:3000
+````
+## Como Utilizar a API
+### Regras e Validações
 
+Os parâmetros a e b devem ser números.
+
+Divisão por zero não é permitida.
+
+Em caso de erro, a API retorna o status HTTP 400.
+``` bash
+GET /math/soma?a=10&b=5
+GET /math/subtracao?a=7&b=2
+GET /math/multiplicacao?a=3&b=5
+GET /math/divisao?a=15&b=3
+````
 
 
 
