@@ -30,16 +30,9 @@ npm start
 
 http://localhost:3000
 
-Para realizar as operações mude a URL 
-GET /math/soma?a=10&b=5
-GET /math/subtracao?a=7&b=2
-GET /math/multiplicacao?a=3&b=5
-GET /math/divisao?a=15&b=3
 
-Regras e Validações
-Os parâmetros a e b devem ser números
-Divisão por zero não é permitida
-Em caso de erro, a API retorna status HTTP 400
+
+
 
 
 
